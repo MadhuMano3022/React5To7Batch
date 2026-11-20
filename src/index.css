@@ -1,0 +1,135 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  text-align: center;
+}
+.container{
+  margin: 10px auto;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #ffffff; */
+}
+
+input{
+  font-size: 1.5em;
+  color: maroon;
+  background-color: antiquewhite;
+  font-family: cursive;
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  font-weight: 700;
+}
+
+ul{
+  width: 500px;
+  min-height: 100px;
+  max-height: 100%;
+  background-color: antiquewhite;
+  color: black;
+  font-family: cursive;
+  font-size: 1.5em;
+  font-weight: 800;
+  border-radius: 10px;
+  border: 2px solid burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ul li{
+  /* width: 800px; */
+  margin-right: 50px;
+  /* border: 2px solid white;   */
+  height: 40px;
+}
+
+.btn{
+  font-size: 1em;
+  width: 120px;
+  height: 50px;
+  line-height: 20px;
+  /* display: flex;
+
+  justify-content: center;
+  align-items: center; */
+}
+
+/* li{
+  width: 300px;
+} */
